@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function News({ article }) {
-  console.log('SS' + article);
   return (
     <a href={article.url} target="_blank">
       <div className="flex items-center justify-between px-4 py-2 space-x-1 hover:bg-gray-200 transition duraton-200">
